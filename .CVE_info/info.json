@@ -1,0 +1,10 @@
+{
+    "buggy_file_path": "codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+    "buggy_method":[[720,765]],
+    "buggy_line":[[750]],
+    "bug_type": "replace",
+    "compile_cmd": "./mvnw clean compile",
+    "test_cmd" : "./mvnw clean test",
+    "CVE": "CVE-2019-20444",
+    "github_url":"https://github.com/netty/netty"
+}
