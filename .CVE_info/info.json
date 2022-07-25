@@ -3,8 +3,8 @@
     "buggy_method":[[720,765]],
     "buggy_line":[[750]],
     "bug_type": "replace",
-    "compile_cmd": "./mvnw clean compile",
-    "test_cmd" : "./mvnw clean test",
+    "compile_cmd": "./mvnw clean compile -pl codec-http",
+    "test_cmd" : "./mvnw clean test -pl codec-http",
     "CVE": "CVE-2019-20444",
     "github_url":"https://github.com/netty/netty"
 }
